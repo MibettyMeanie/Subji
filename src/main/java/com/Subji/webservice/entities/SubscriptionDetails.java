@@ -1,12 +1,14 @@
 package com.Subji.webservice.entities;
 
-import java.util.Date;
+import java.time.LocalDate;
+
 
 public class SubscriptionDetails {
 	
 	private String userName;
 	private String planId;
-	private Date startDate;
+	private LocalDate startDate;
+
 	public String getUserName() {
 		return userName;
 	}
@@ -19,10 +21,10 @@ public class SubscriptionDetails {
 	public void setPlanId(String planId) {
 		this.planId = planId;
 	}
-	public Date getStartDate() {
+	public LocalDate getStartDate() {
 		return startDate;
 	}
-	public void setStartDate(Date startDate) {
+	public void setStartDate(LocalDate startDate) {
 		this.startDate = startDate;
 	}
 

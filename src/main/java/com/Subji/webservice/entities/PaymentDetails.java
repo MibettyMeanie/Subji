@@ -4,6 +4,7 @@ public class PaymentDetails {
 	
 	private String status;
 	private Integer amount;
+	
 	public String getStatus() {
 		return status;
 	}
